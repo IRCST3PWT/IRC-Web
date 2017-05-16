@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  headline = 'Irc';
+  tagline = 'Do something, try to change, be better';
+  menus = ['Research', 'Staf', 'About']
 }

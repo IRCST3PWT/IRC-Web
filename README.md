@@ -6,7 +6,7 @@ Salam riset !!!
 ## Cara Menggunakan
 Download dengan git `git clone https://github.com/IRCST3PWT/IRC-Web.git`
 
-###Demo
+### Demo
 Dalam proses
 
 ## Development server

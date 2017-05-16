@@ -1,3 +1,13 @@
-<h1>
-  {{title}}
-</h1>
+<div class="irc-header">
+  <md-toolbar>
+    <a href="#"> <button class="nav-link" md-button>IRC</button></a>
+    <div *ngFor='let menu of menus'>
+      <a href="#"> <button class="nav-link" md-button>{{menu}}</button></a>
+    </div>
+  </md-toolbar>
+  <div class="irc-header-headline">
+    <h1 class="headline">{{ headline }}</h1>
+    <h2 class="tagline">{{ tagline }}</h2>
+  </div>
+</div>
+<portofDivisi></portofDivisi> 

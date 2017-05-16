@@ -4,15 +4,25 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { MdToolbarModule, MdButtonModule } from "@angular/material";
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import 'hammerjs';
+import 'normalize.css';
+
+import { portofDivisiComponent } from "./portofDivisi/portofDivisi.component";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    portofDivisiComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    BrowserAnimationsModule,
+    MdToolbarModule,
+    MdButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
